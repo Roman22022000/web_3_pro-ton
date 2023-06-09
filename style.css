@@ -1,0 +1,89 @@
+body {
+	background-image: url("Avtomat_game.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1500px; /* Set the body height to 1500px */
+	overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.container {
+	margin: 0 auto;
+	width: 50%;
+	padding: 50px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-menu li {
+	display: block;
+}
+
+.dropdown-menu li a {
+	color: #333;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.container_one {
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background-color: blue;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
